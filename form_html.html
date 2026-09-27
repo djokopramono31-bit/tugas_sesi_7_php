@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Data</title>
+</head>
+<body>
+
+    <h2>Formulir HTML</h2>
+
+    <form action="proses.php" method="POST">
+
+        <label>Product Name: <input type="text" name="product_name" required></label>
+        <br><br>
+
+        <label>Harga: <input type="number" name="harga" required></label>
+        <br><br>
+
+        <label>Deskripsi:</label><br>
+        <textarea name="deskripsi" rows="4" required></textarea>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
